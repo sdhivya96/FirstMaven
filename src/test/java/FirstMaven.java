@@ -28,7 +28,7 @@ public class FirstMaven {
         Set<String>allTabs = driver.getWindowHandles();
         List<String>allTabsList = new ArrayList<String>(allTabs);
         driver.switchTo().window(allTabsList.get(1));
-        System.out.println("Price of Rolex GMT-Master Wrist Watch:"+driver.findElement(By.xpath("//span[@id='kindle-price']")).getText());
+        System.out.println("Price of Rolex  Wrist Watch:"+driver.findElement(By.xpath("//span[@id='kindle-price']")).getText());
         TakesScreenshot ts = (TakesScreenshot)driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
         File dest = new File("C:\\Users\\San\\eclipse-workspace\\FirstMaven\\Screenshot\\Rolex.jpeg");

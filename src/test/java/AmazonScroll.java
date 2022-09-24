@@ -19,6 +19,7 @@ public class AmazonScroll {
 		JavascriptExecutor js =  (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(false);",pageName );
 		js.executeScript("arguments[0].scrollIntoView(true);",productName );
+		System.out.println("git changes");
 		
 	}}
 
